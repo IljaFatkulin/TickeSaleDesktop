@@ -1,27 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
 namespace TicketSale
 {
-    public partial class Login : Form
+    public partial class Home : Form
     {
-        public Login()
+        public Home()
         {
             InitializeComponent();
-            SetRoundedShape(panel1, 50);
+            SetRoundedShape(panel5, 50);
+            SetRoundedShape(panel3, 50);
+            SetRoundedShape(panel4, 50);
         }
 
-        private void Login_Click(object sender, EventArgs e)
-        {
-            
-        }
-  
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
         static void SetRoundedShape(Control control, int radius)
         {
             System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
@@ -36,30 +34,27 @@ namespace TicketSale
             control.Region = new Region(path);
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Home r = new Home();
-            r.Show();
-            this.Hide();
-        }
 
-        private void bRegister_Click_1(object sender, EventArgs e)
-        {
-            Register r = new Register();
-            r.Show();
-            this.Hide();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void tbLogin_TextChanged(object sender, EventArgs e)
+        private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
         }

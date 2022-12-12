@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iljaf\\source\\repos\\TicketSale\\TicketSale\\TicketSale.csproj",
+      "projectUniqueName": "C:\\Users\\iljaf\\source\\repos\\TickeSaleDesktop\\TicketSale\\TicketSale.csproj",
       "projectName": "TicketSale",
-      "projectPath": "C:\\Users\\iljaf\\source\\repos\\TicketSale\\TicketSale\\TicketSale.csproj",
+      "projectPath": "C:\\Users\\iljaf\\source\\repos\\TickeSaleDesktop\\TicketSale\\TicketSale.csproj",
       "packagesPath": "C:\\Users\\iljaf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iljaf\\source\\repos\\TicketSale\\TicketSale\\obj\\",
+      "outputPath": "C:\\Users\\iljaf\\source\\repos\\TickeSaleDesktop\\TicketSale\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\iljaf\\AppData\\Roaming\\NuGet\\NuGet.Config",

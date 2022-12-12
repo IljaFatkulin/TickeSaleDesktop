@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mjmWSB5oAzehR1mzrh8XGtMt0aJNmPliWh3nxq2gGAY7phlIdnueZw+jf8HJhBP/mIYRdMudc0/A2h/pnnSwwA==",
+  "dgSpecHash": "iaDalb5k+I9Ou/XGE7v2qXehAA4SR70+Eg1uxRC/JOOq4tZn+K/j8oviA1vpM9qkrId5X0lPLMUq7NNrfzToSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\iljaf\\source\\repos\\TicketSale\\TicketSale\\TicketSale.csproj",
+  "projectFilePath": "C:\\Users\\iljaf\\source\\repos\\TickeSaleDesktop\\TicketSale\\TicketSale.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
