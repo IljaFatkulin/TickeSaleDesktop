@@ -37,3 +37,5 @@ C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.genruntimeconfig.cache
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\ref\TicketSale.dll
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.Home.resources
+C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.csproj.CopyComplete
+C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\bin\Debug\net6.0-windows\MySqlConnector.dll

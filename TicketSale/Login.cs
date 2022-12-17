@@ -1,3 +1,10 @@
+using System;
+using System.Data;
+using System.Windows.Forms;
+using MySqlConnector;
+using System.Diagnostics;
+using System.Security.Policy;
+
 namespace TicketSale
 {
     public partial class Login : Form
@@ -42,16 +49,32 @@ namespace TicketSale
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            Home r = new Home();
-            r.Show();
-            this.Hide();
+            string user = tbLogin.Text;
+            string pass = tbPass.Text;
+
+            DB db = new DB();
+            DataTable table = new DataTable();
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
+            MySqlCommand logIn = new MySqlCommand($"SELECT * FROM `users` WHERE `user_name` = @u AND `password` = @p", db.getConnection());
+            logIn.Parameters.Add("@u", MySqlDbType.VarChar).Value = user;
+            logIn.Parameters.Add("@p", MySqlDbType.VarChar).Value = pass;
+            adapter.SelectCommand = logIn;
+            adapter.Fill(table);
+            if(table.Rows.Count > 0)
+            {
+                Home r = new Home();
+                r.Show();
+                this.Hide();
+            } 
+            else
+            {
+                MessageBox.Show("Incorrect login or password");
+            }
         }
 
         private void bRegister_Click_1(object sender, EventArgs e)
         {
-            Register r = new Register();
-            r.Show();
-            this.Hide();
+            System.Diagnostics.Process.Start("cmd", "/c start http://localhost/WEB/signup.php");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -63,5 +86,7 @@ namespace TicketSale
         {
 
         }
+
+        
     }
 }
