@@ -25,7 +25,6 @@ C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\bin\Debug\net6.0-windows
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.csproj.AssemblyReference.cache
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.Login.resources
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.Properties.Resources.resources
-C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.Register.resources
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.csproj.GenerateResource.cache
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.AssemblyInfoInputs.cache
@@ -39,3 +38,6 @@ C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.Home.resources
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.csproj.CopyComplete
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.Profile.resources
+C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.Users.resources
+C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.BuyTickets.resources

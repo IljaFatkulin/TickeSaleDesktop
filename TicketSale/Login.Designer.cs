@@ -118,10 +118,12 @@
             // tbPass
             // 
             this.tbPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
-            this.tbPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbPass.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.tbPass.Location = new System.Drawing.Point(151, 131);
             this.tbPass.MinimumSize = new System.Drawing.Size(0, 50);
             this.tbPass.Name = "tbPass";
+            this.tbPass.PasswordChar = '●';
             this.tbPass.Size = new System.Drawing.Size(153, 50);
             this.tbPass.TabIndex = 2;
             this.tbPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -129,7 +131,7 @@
             // tbLogin
             // 
             this.tbLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
-            this.tbLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbLogin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbLogin.Location = new System.Drawing.Point(151, 50);
             this.tbLogin.Margin = new System.Windows.Forms.Padding(0);
             this.tbLogin.MinimumSize = new System.Drawing.Size(0, 50);
@@ -150,7 +152,7 @@
             this.Name = "Login";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
+            this.Text = "TicketSale";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
