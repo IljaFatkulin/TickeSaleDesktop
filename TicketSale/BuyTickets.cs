@@ -217,7 +217,9 @@ namespace TicketSale
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Aboutus a = new Aboutus();
+            this.Hide();
+            a.Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -405,6 +407,7 @@ namespace TicketSale
                 MessageBox.Show("Incorrect input");
             }
             Authorization.cmdB = "SELECT * FROM tickets WHERE `departure_date` LIKE '" + input + "'";
+            MessageBox.Show(Authorization.cmdB);
             BuyTickets b = new BuyTickets();
             b.Show();
             this.Hide();

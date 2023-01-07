@@ -23,6 +23,7 @@ namespace TicketSale
                 Admin();
             Design.SetRoundedShape(panel5, 50);
             Design.SetRoundedShape(panel3, 50);
+
         }
         private void Admin()
         {
@@ -182,6 +183,13 @@ namespace TicketSale
             Home h = new Home();
             h.Show();
             this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Aboutus a = new Aboutus();
+            this.Hide();
+            a.Show();
         }
     }
 }

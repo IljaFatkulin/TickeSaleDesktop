@@ -48,11 +48,11 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.price = new System.Windows.Forms.Label();
-            this.ddate = new System.Windows.Forms.Label();
-            this.adate = new System.Windows.Forms.Label();
-            this.dcity = new System.Windows.Forms.Label();
             this.acity = new System.Windows.Forms.Label();
+            this.dcity = new System.Windows.Forms.Label();
+            this.adate = new System.Windows.Forms.Label();
+            this.ddate = new System.Windows.Forms.Label();
+            this.price = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -124,6 +124,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "About us";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -290,32 +291,14 @@
             this.panel2.Size = new System.Drawing.Size(522, 100);
             this.panel2.TabIndex = 0;
             // 
-            // price
+            // acity
             // 
-            this.price.AutoSize = true;
-            this.price.Location = new System.Drawing.Point(28, 44);
-            this.price.Name = "price";
-            this.price.Size = new System.Drawing.Size(32, 15);
-            this.price.TabIndex = 0;
-            this.price.Text = "Error";
-            // 
-            // ddate
-            // 
-            this.ddate.AutoSize = true;
-            this.ddate.Location = new System.Drawing.Point(119, 44);
-            this.ddate.Name = "ddate";
-            this.ddate.Size = new System.Drawing.Size(32, 15);
-            this.ddate.TabIndex = 1;
-            this.ddate.Text = "Error";
-            // 
-            // adate
-            // 
-            this.adate.AutoSize = true;
-            this.adate.Location = new System.Drawing.Point(215, 44);
-            this.adate.Name = "adate";
-            this.adate.Size = new System.Drawing.Size(32, 15);
-            this.adate.TabIndex = 2;
-            this.adate.Text = "Error";
+            this.acity.AutoSize = true;
+            this.acity.Location = new System.Drawing.Point(419, 44);
+            this.acity.Name = "acity";
+            this.acity.Size = new System.Drawing.Size(32, 15);
+            this.acity.TabIndex = 4;
+            this.acity.Text = "Error";
             // 
             // dcity
             // 
@@ -326,14 +309,32 @@
             this.dcity.TabIndex = 3;
             this.dcity.Text = "Error";
             // 
-            // acity
+            // adate
             // 
-            this.acity.AutoSize = true;
-            this.acity.Location = new System.Drawing.Point(419, 44);
-            this.acity.Name = "acity";
-            this.acity.Size = new System.Drawing.Size(32, 15);
-            this.acity.TabIndex = 4;
-            this.acity.Text = "Error";
+            this.adate.AutoSize = true;
+            this.adate.Location = new System.Drawing.Point(215, 44);
+            this.adate.Name = "adate";
+            this.adate.Size = new System.Drawing.Size(32, 15);
+            this.adate.TabIndex = 2;
+            this.adate.Text = "Error";
+            // 
+            // ddate
+            // 
+            this.ddate.AutoSize = true;
+            this.ddate.Location = new System.Drawing.Point(119, 44);
+            this.ddate.Name = "ddate";
+            this.ddate.Size = new System.Drawing.Size(32, 15);
+            this.ddate.TabIndex = 1;
+            this.ddate.Text = "Error";
+            // 
+            // price
+            // 
+            this.price.AutoSize = true;
+            this.price.Location = new System.Drawing.Point(28, 44);
+            this.price.Name = "price";
+            this.price.Size = new System.Drawing.Size(32, 15);
+            this.price.TabIndex = 0;
+            this.price.Text = "Error";
             // 
             // Home
             // 

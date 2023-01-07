@@ -229,5 +229,12 @@ namespace TicketSale
             pnl.Size = new Size(730, 100);
             panel2.Controls.Add(pnl);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Aboutus a = new Aboutus();
+            this.Hide();
+            a.Show();
+        }
     }
 }

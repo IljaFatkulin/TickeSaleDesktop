@@ -41,3 +41,4 @@ C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\bin\Debug\net6.0-windows
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.Profile.resources
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.Users.resources
 C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.BuyTickets.resources
+C:\Users\iljaf\source\repos\TickeSaleDesktop\TicketSale\obj\Debug\net6.0-windows\TicketSale.Aboutus.resources

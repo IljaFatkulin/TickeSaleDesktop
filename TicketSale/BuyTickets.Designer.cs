@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button14 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -64,7 +65,6 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -97,6 +97,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1584, 82);
             this.panel1.TabIndex = 2;
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(1106, 33);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 23);
+            this.button14.TabIndex = 29;
+            this.button14.Text = "Clear";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // label11
             // 
@@ -266,7 +276,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(209, 12);
+            this.button2.Location = new System.Drawing.Point(205, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 60);
             this.button2.TabIndex = 1;
@@ -482,16 +492,6 @@
             this.panel5.Size = new System.Drawing.Size(1581, 771);
             this.panel5.TabIndex = 7;
             this.panel5.Visible = false;
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(1106, 33);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 29;
-            this.button14.Text = "Clear";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // BuyTickets
             // 
